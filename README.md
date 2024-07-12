@@ -1,1 +1,1 @@
-<h1>tThis repo includes the topics I learned during my python course</h1>
+<h1>This repo includes the topics I learned during my python course</h1>
