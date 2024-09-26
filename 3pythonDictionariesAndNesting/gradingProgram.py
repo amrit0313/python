@@ -13,10 +13,12 @@ grades = {}
 for key in marks:
     if marks[key] >90:
         grades[key] = "Outstanding"
-    if marks[key]<90 and marks[key]>80:
+    elif marks[key]>80:
         grades[key] = "Excellent"
-    if  marks[key]<80 and marks[key]>70:
+    elif marks[key]>70:
         grades[key] = "Very good"
-    if marks[key]<70 and marks[key]>60:
+    elif marks[key]>60:
         grades[key] = "Good"
+    else:
+        grades[key] = "Fail"
 print(grades)   
