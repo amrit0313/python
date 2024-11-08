@@ -26,5 +26,5 @@ myDictionary["Bug"] = "this refers to any program occurred in programming" #the 
 #loop through dictionary
 
 for key in myDictionary: #we know key isnt necessary here to write, but that would result in key in dictionary
-    print(key)
-    print(myDictionary[key])
+    print(key)  #this would print keys
+    print(myDictionary[key])  # this would print keys
