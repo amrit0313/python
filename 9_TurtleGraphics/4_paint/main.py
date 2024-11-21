@@ -27,7 +27,7 @@ for _ in range (10):
         tim.dot(20, random.choice(color_list))
         tim.forward(50)
 
-    tim.setheading(270)
+    tim.setheading(90)
     tim.forward(50)
     tim.setheading(180)
     tim.forward(500)

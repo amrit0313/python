@@ -1,4 +1,4 @@
-from turtle import Turtle, Screen
+from turtle import Turtle
 
 tim = Turtle()
 color = ["red", 'blue', 'purple', "brown", 'gray', 'green', 'violet', 'indigo',]

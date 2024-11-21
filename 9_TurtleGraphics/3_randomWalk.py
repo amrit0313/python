@@ -21,7 +21,7 @@ def random_color():
 
 for _ in range(200):
     tim.color(random_color())
-    tim.forward(40)
+    tim.forward(30)
     tim.setheading(random.choice(direction))
 
 screen = Screen()

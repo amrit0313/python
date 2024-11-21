@@ -23,6 +23,8 @@ def playGame():
             if result == 'correct':
                 return
             n-=1
+            if n == 0:
+                print(f"Hey! your attempts ended, correct answer was {number}")
 
 
     def hard():
@@ -33,7 +35,10 @@ def playGame():
             result =compare(guess)
             if result == 'correct':
                 return
-            n-=1        
+            n-=1
+            if n ==0:        
+                print(f"Hey! your attempts ended, correct answer was {number}")
+
 
 
     if decision == 'easy':
