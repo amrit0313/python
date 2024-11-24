@@ -37,5 +37,6 @@ students = {
 }
 
 dataf = pandas.DataFrame(students)
+print(dataf.to_dict())
 print(dataf)
 dataf.to_csv("datafiles.csv")
