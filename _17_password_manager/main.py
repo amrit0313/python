@@ -1,3 +1,4 @@
+import json
 from tkinter import *
 from tkinter import messagebox
 import random
@@ -24,16 +25,51 @@ def add_data():
     website = website_entry.get()
     email = email_entry.get()
     password = password_entry.get()
+    new_data = {website:{
+        "email": email,
+        "password":password,
+    }}
 
     if len(email) == 0 or len(password) == 0:
         messagebox.showinfo(title="oops", message="Hey! make sure you haven't left fields empty")
     else:
-        is_ok = messagebox.askokcancel(title=website, message=f"these are the details that are entered: \n email: {email} \n password: {password} \n Is it ok to save" )
-        if is_ok:
-            with open("data.txt", mode='a') as f:
-                f.write(f"{website} | {email} | {password}   \n")
-                website_entry.delete(0, END)
-                password_entry.delete(0, END)
+        try:
+           with open("data.json",'r') as data_file:
+                # reading old data
+                data = json.load(data_file)
+        except FileNotFoundError:
+           with open("data.json", "w") as data_file:
+               json.dump(new_data, data_file, indent=4)
+        else:
+            # updating data with new data
+            data.update(new_data)
+            # saving updated data
+            with open("data.json", "w") as data_file:
+                json.dump(data, data_file, indent=4)
+        finally:
+            website_entry.delete(0, END)
+            password_entry.delete(0, END)
+
+
+
+#-----------------------------search option ---------------------------#
+
+def search_password():
+    website = website_entry.get()
+    try:
+        with open("data.json", "r") as data_file:
+            data = json.load(data_file)
+    except FileNotFoundError:
+        messagebox.showinfo(title="not data yet", message="site not found")
+    else:
+        if website in data:
+            email = data[website]["email"]
+            password = data[website]["password"]
+            messagebox.showinfo(title = website, message=f"Email: {email} \nPassword: {password}")
+        else:
+            messagebox.showinfo(title="error", message="website not found")
+
+
 
 
 # ---------------------------- UI SETUP ------------------------------- #
@@ -49,8 +85,11 @@ canvas.grid(column = 2, row = 1)
 website_label = Label(text="website: ")
 website_label.grid(column = 1, row = 2)
 
-website_entry = Entry(width=40)
-website_entry.grid(column = 2, row = 2, columnspan = 2)
+website_entry = Entry(width=25)
+website_entry.grid(column = 2, row = 2)
+
+search_button = Button(text="search", command=search_password, width=10)
+search_button.grid(column = 3, row = 2)
 
 
 email_label = Label(text="Email/Username: ")
