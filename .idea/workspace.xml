@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed4e7ad6-7983-49ba-a3d2-6f1aece47132" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_fileHandling/az.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_10_fileHandling/az.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_fileHandling/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/_10_fileHandling/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10_fileHandling/my_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_10_fileHandling/my_file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_mail_merge/Input/Letters/starting_letter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mail_merge/Input/Letters/starting_letter.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_mail_merge/Input/Names/invited_names.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mail_merge/Input/Names/invited_names.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_mail_merge/Output/ReadyToSend/example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mail_merge/Output/ReadyToSend/example.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_mail_merge/Output/ReadyToSend/letter_for_Aang" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mail_merge/Output/ReadyToSend/letter_for_Aang" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_mail_merge/Output/ReadyToSend/letter_for_Appa" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mail_merge/Output/ReadyToSend/letter_for_Appa" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_mail_merge/Output/ReadyToSend/letter_for_Katara" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mail_merge/Output/ReadyToSend/letter_for_Katara" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_mail_merge/Output/ReadyToSend/letter_for_Momo" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mail_merge/Output/ReadyToSend/letter_for_Momo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_mail_merge/Output/ReadyToSend/letter_for_Sokka" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mail_merge/Output/ReadyToSend/letter_for_Sokka" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_mail_merge/Output/ReadyToSend/letter_for_Toph" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mail_merge/Output/ReadyToSend/letter_for_Toph" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_mail_merge/Output/ReadyToSend/letter_for_Uncle Iroh" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mail_merge/Output/ReadyToSend/letter_for_Uncle Iroh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_mail_merge/Output/ReadyToSend/letter_for_Zuko" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mail_merge/Output/ReadyToSend/letter_for_Zuko" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11_mail_merge/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/_11_mail_merge/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_weather_data/002 weather-data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/_12_weather_data/002 weather-data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_weather_data/datafiles.csv" beforeDir="false" afterPath="$PROJECT_DIR$/_12_weather_data/datafiles.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_weather_data/datafiles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_12_weather_data/datafiles.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_weather_data/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/_12_weather_data/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_17_password_manager/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/_17_password_manager/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,20 +34,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.basics.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.raising_own_exception.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.basics.executor": "Run",
+    "Python.iss_position.executor": "Run",
+    "Python.main (1).executor": "Run",
+    "Python.main (2).executor": "Run",
+    "Python.main (3).executor": "Run",
+    "Python.main (4).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.raising_own_exception.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main"
   }
-}</component>
-  <component name="RunManager" selected="Python.main (2)">
-    <configuration name="basics" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Python.iss_position">
+    <configuration name="iss_position" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,11 +59,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_18_error_exceptions_handling" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_20_api_" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_18_error_exceptions_handling/basics.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_20_api_/iss_position.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,11 +125,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_18_error_exceptions_handling/NATO-alphabet_with_error_handling" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_20_mail_through_python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_18_error_exceptions_handling/NATO-alphabet_with_error_handling/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_20_mail_through_python/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="raising_own_exception" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,11 +147,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_18_error_exceptions_handling" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_20_api_/005 kanye-quotes-start" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_18_error_exceptions_handling/raising_own_exception.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_20_api_/005 kanye-quotes-start/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.iss_position" />
+        <item itemvalue="Python.main (4)" />
+        <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.basics" />
-        <item itemvalue="Python.raising_own_exception" />
       </list>
     </recent_temporary>
   </component>
